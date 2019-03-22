@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <AppVersion>26</AppVersion>
+  <CPSheet>
+    <GroupBox Label="Skupinový rámeček" PropName="Skupinový rámeček2" DefaultState="Expanded">
+      <Control Label="ROZMĚR:" PropName="ROZMER" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="ČÍSLO VÝKRESU:" PropName="CISLO_VYKRESU" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="HMOTNOST:" PropName="HMOTNOST" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="SW-Mass" Mode="SWProperty" />
+      <Control Label="DATUM:" PropName="DATUM" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Date" />
+      <Control Label="AUTOR:" PropName="NAVRHL" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="PŘESNOST:" PropName="PRESNOST" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="ISO 2768 m K" Mode="Text" />
+      <Control Label="TOLEROVÁNÍ:" PropName="TOLEROVANÍ" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="ISO 8015" Mode="Text" />
+      <Control Label="ČÍSLO NADŘAZENÉ SESTAVY:" PropName="CISLO_SESTAVY" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="ČÍSLO NADŘAZENÉHO KUSOVNÍKU:" PropName="CISLO_KUSOVNIKU" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>
